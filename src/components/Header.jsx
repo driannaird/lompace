@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import getStarted from "../assets/svg_images/get-started.svg";
 import kerjaSama from "../assets/svg_images/kerja-sama.svg";
 import tag from "../assets/svg_images/tag.svg";
@@ -8,6 +7,9 @@ import linkin from "../assets/svg_images/linkin.svg";
 import divider from "../assets/svg_images/divider.svg";
 import backImage from "../assets/images/backimage.png";
 import sideImage from "../assets/svg_images/side-header-image.svg";
+import React from "react";
+
+const Navbar = React.lazy(() => import("./Navbar"));
 
 const Header = () => {
   return (
