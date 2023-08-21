@@ -33,12 +33,12 @@ const Main = () => {
         <div className="mt-5">
           <Swiper />
         </div>
-        <div className="mt-32 flex flex-wrap lg:mt-40 gap-10">
+        <div className="mt-20 flex flex-wrap lg:mt-40 gap-5">
           <div className="w-full md:w-1/3 flex justify-center">
             <img
               src={mainImage}
               alt="main image"
-              className="w-2/3 md:w-full h-auto object-cover rounded-3xl"
+              className="w-full h-auto object-cover rounded-3xl"
             />
           </div>
           <div className="w-full md:w-3/5">
