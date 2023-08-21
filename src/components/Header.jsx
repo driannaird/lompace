@@ -22,13 +22,13 @@ const Header = () => {
             <h1 className="text-3xl font-bold leading-10 mb-4 sm:text-4xl lg:text-6xl lg:leading-tight lg:mb-6">
               Menjelajahi Keindahan Indonesia Melalui Layar Anda
             </h1>
-            <p className="font-medium text-sm sm:text-base lg:text-lg lg:w-1/2">
+            <p className="font-medium text-base sm:text-base lg:text-lg lg:w-1/2">
               Kami ingin mengajak Anda untuk menjelajahi dunia tanpa batas,
               melalui mata dan imajinasi Anda sendiri. Kami menghadirkan koleksi
               destinasi indah dan menarik dari berbagai penjuru Indonesia.
             </p>
             <div className="mt-6 flex gap-2 lg:mt-16">
-              <button className="text-sm bg-white text-red-500 px-14 rounded-full lg:text-base">
+              <button className="text-base bg-white text-red-500 px-14 rounded-full lg:text-base">
                 Get Started
               </button>
               <button>

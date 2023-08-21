@@ -1,4 +1,5 @@
 import "./app.css";
+import Footer from "./components/Footer";
 import Loading from "./components/Loading";
 import React, { Suspense } from "react";
 
@@ -10,6 +11,7 @@ const App = () => {
     <Suspense fallback={<Loading />}>
       <Header />
       <Main />
+      <Footer />
     </Suspense>
   );
 };

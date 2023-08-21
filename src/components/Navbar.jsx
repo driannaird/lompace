@@ -8,10 +8,10 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </div>
       <div className="hidden sm:flex gap-2 order-2 sm:order-3 lg:order-3">
-        <button className="text-sm font-medium bg-white text-red-500 py-2 px-4 rounded-full lg:text-base">
+        <button className="text-base font-medium bg-white text-red-500 py-2 px-4 rounded-full lg:text-base">
           Sign In
         </button>
-        <button className="text-sm font-medium text-white py-2 px-4 border-2 rounded-full lg:text-base">
+        <button className="text-base font-medium text-white py-2 px-4 border-2 rounded-full lg:text-base">
           Sign Up
         </button>
       </div>
