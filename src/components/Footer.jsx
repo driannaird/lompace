@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#FEEBEB] py-14 text-[#5F5757]">
+      <div className="bg-[#FEEBEB] pt-14 pb-32 text-[#5F5757]">
         <div className="mx-auto container px-5 lg:px-14 border-[#5f5757] border-b pb-10 flex flex-wrap">
           <div className="w-full lg:w-1/2">
             <h5 className="text-red-800 font-bold text-2xl sm:text-2xl lg:text-4xl">

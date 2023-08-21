@@ -41,9 +41,9 @@ const Navbar = () => {
       </nav>
       <div
         className={`fixed right-0 left-0 bg-white p-4 border-gray border-t-2 border-opacity-10 transition-all ease-in-out duration-500 z-50 lg:hidden ${
-          toggleNavbar ? "bottom-0" : "-bottom-20"
+          toggleNavbar ? "bottom-0" : "-bottom-32"
         }`}>
-        <ul className="flex justify-around text-unggu">
+        <ul className="flex justify-around">
           <li className="opacity-60 hover:opacity-100">
             <button
               to="/"
