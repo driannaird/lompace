@@ -33,15 +33,15 @@ const Main = () => {
         <div className="mt-5">
           <Swiper />
         </div>
-        <div className="mt-32 flex flex-col md:flex-row lg:mt-40">
-          <div className="w-full flex justify-center">
+        <div className="mt-32 flex flex-wrap lg:mt-40 gap-10">
+          <div className="w-full md:w-1/3 flex justify-center">
             <img
               src={mainImage}
               alt="main image"
-              className="w-2/3 h-auto object-cover rounded-3xl"
+              className="w-2/3 md:w-full h-auto object-cover rounded-3xl"
             />
           </div>
-          <div className="w-full">
+          <div className="w-full md:w-3/5">
             <h2 className="text-red-800 font-bold text-xl sm:text-2xl lg:text-4xl mt-6">
               Perjalanan bersama Loompace untuk perjalanan modern
             </h2>
