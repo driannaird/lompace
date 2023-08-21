@@ -36,40 +36,38 @@ const Footer = () => {
       </div>
 
       <div className="bg-[#FEEBEB] py-14 text-[#5F5757]">
-        <div className="mx-auto container px-5 lg:px-14">
-          <div className="border-[#5f5757] border-b pb-10 flex flex-wrap">
-            <div className="w-full lg:w-1/2">
-              <h5 className="text-red-800 font-bold text-2xl sm:text-2xl lg:text-4xl">
-                LomPace
-              </h5>
-              <p className="text-base font-medium sm:text-base lg:text-lg mt-3">
-                Lorem Ipsum has been the industry`s standard dummy text ever
-                since the 1500s, when an
-              </p>
+        <div className="mx-auto container px-5 lg:px-14 border-[#5f5757] border-b pb-10 flex flex-wrap">
+          <div className="w-full lg:w-1/2">
+            <h5 className="text-red-800 font-bold text-2xl sm:text-2xl lg:text-4xl">
+              LomPace
+            </h5>
+            <p className="text-base font-medium sm:text-base lg:text-lg mt-3">
+              Lorem Ipsum has been the industry`s standard dummy text ever since
+              the 1500s, when an
+            </p>
+          </div>
+          <div className="w-full flex flex-wrap mt-6 lg:w-1/2">
+            <div className="w-full mb-6 lg:w-1/3">
+              <h5 className="text-red-800 font-bold text-xl">CONTACT</h5>
+              <p className="mt-3">+23234421</p>
+              <p className="mt-2">lorem@gmail.com</p>
+              <p className="mt-2">lompace.com</p>
             </div>
-            <div className="w-full flex flex-wrap mt-6 lg:w-1/2">
-              <div className="w-full mb-6 lg:w-1/3">
-                <h5 className="text-red-800 font-bold text-xl">CONTACT</h5>
-                <p className="mt-3">+23234421</p>
-                <p className="mt-2">lorem@gmail.com</p>
-                <p className="mt-2">lompace.com</p>
-              </div>
-              <div className="w-full mb-6 lg:w-1/3">
-                <h5 className="text-red-800 font-bold text-xl">COMPANY</h5>
-                <p className="mt-3">About Us</p>
-                <p className="mt-2">Features</p>
-              </div>
-              <div className="w-full mb-6 lg:w-1/3">
-                <h5 className="text-red-800 font-bold text-xl">RESOURCES</h5>
-                <p className="mt-3">Fresh Info</p>
-                <p className="mt-2">Costumers</p>
-                <p className="mt-2">Review</p>
-              </div>
+            <div className="w-full mb-6 lg:w-1/3">
+              <h5 className="text-red-800 font-bold text-xl">COMPANY</h5>
+              <p className="mt-3">About Us</p>
+              <p className="mt-2">Features</p>
+            </div>
+            <div className="w-full mb-6 lg:w-1/3">
+              <h5 className="text-red-800 font-bold text-xl">RESOURCES</h5>
+              <p className="mt-3">Fresh Info</p>
+              <p className="mt-2">Costumers</p>
+              <p className="mt-2">Review</p>
             </div>
           </div>
         </div>
         <div className="pt-14 w-full">
-          <h6 className="text-center">
+          <h6 className="text-sm text-center">
             Copyright © 2023 LomPace. All Rights Reserved
           </h6>
         </div>
